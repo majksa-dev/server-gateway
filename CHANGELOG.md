@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.1.1](https://github.com/majksa-dev/server-gateway/compare/v0.1.0...v0.1.1) (2024-07-04)
+
+
+### Bug Fixes
+
+* build only for linux ([1efb765](https://github.com/majksa-dev/server-gateway/commit/1efb76510633f6ddbaeb9f62dbe293934addde69))
+
 ## [0.1.0](https://github.com/majksa-dev/server-gateway/compare/v0.0.1...v0.1.0) (2024-07-04)
 
 
