@@ -15,7 +15,7 @@ A Rust Server Gateway built on top of custom gateway library.
 
 <!-- x-release-please-start-version -->
 
-`docker run --rm -p 80:80 ghcr.io/majksa-dev/server-gateway:0.1.0`
+`docker run --rm -p 80:80 ghcr.io/majksa-dev/server-gateway:0.1.1`
 
 <!-- x-release-please-end -->
 
