@@ -1,0 +1,63 @@
+{
+	"$schema": "./config.schema.json",
+	"apps": {
+		"app": {
+			"upstream": {
+				"host": "localhost",
+				"port": 3005
+			},
+			"auth": [
+				{
+					"token": "hello",
+					"quota": {
+						"total": {
+							"amount": 1000,
+							"interval": {
+								"amount": 1,
+								"unit": "minutes"
+							}
+						},
+						"user": {
+							"amount": 10,
+							"interval": {
+								"amount": 1,
+								"unit": "minutes"
+							}
+						}
+					}
+				}
+			],
+			"endpoints": [
+				{
+					"path": "/api/hello",
+					"id": "hello",
+					"method": "GET",
+					"headers": [],
+					"quota": {
+						"total": {
+							"amount": 100,
+							"interval": {
+								"amount": 1,
+								"unit": "minutes"
+							}
+						}
+					}
+				},
+				{
+					"path": "/api/update/:id",
+					"id": "update",
+					"method": "POST",
+					"quota": {
+						"total": {
+							"amount": 1,
+							"interval": {
+								"amount": 1,
+								"unit": "minutes"
+							}
+						}
+					}
+				}
+			]
+		}
+	}
+}
