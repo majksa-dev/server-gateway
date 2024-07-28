@@ -10,4 +10,5 @@ pub struct Endpoint {
     pub cache: Option<Cache>,
     pub method: Method,
     pub auth: Option<Vec<Auth>>,
+    pub roles: Option<Vec<String>>,
 }
