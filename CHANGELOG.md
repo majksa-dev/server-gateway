@@ -1,5 +1,17 @@
 # Changelog
 
+## [0.2.0](https://github.com/majksa-dev/server-gateway/compare/v0.1.2...v0.2.0) (2024-07-28)
+
+
+### Features
+
+* **auth:** implement endpoint based auth ([ebdfbc4](https://github.com/majksa-dev/server-gateway/commit/ebdfbc4ca6e1ed78740b20d4dd31b81b128d0244))
+
+
+### Bug Fixes
+
+* **deps:** bump versions ([1ae4e67](https://github.com/majksa-dev/server-gateway/commit/1ae4e673c5e9b8f915c6bc79515f518d4625c9c9))
+
 ## [0.1.2](https://github.com/majksa-dev/server-gateway/compare/v0.1.1...v0.1.2) (2024-07-28)
 
 
