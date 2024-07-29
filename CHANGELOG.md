@@ -1,5 +1,14 @@
 # Changelog
 
+## [0.2.1](https://github.com/majksa-dev/server-gateway/compare/v0.2.0...v0.2.1) (2024-07-29)
+
+
+### Bug Fixes
+
+* **deps:** bump gateway in the dependencies group ([73e0f49](https://github.com/majksa-dev/server-gateway/commit/73e0f493c1b6f38588b7c36b3e57dca41bb1ffa5))
+* **deps:** bump serde_json in the dependencies group ([df785ca](https://github.com/majksa-dev/server-gateway/commit/df785ca5620f1272133657665d5b1727c63694b6))
+* peer key host remains ([56ee288](https://github.com/majksa-dev/server-gateway/commit/56ee2886e8d003b7ce9c2138364d6b7462bf83af))
+
 ## [0.2.0](https://github.com/majksa-dev/server-gateway/compare/v0.1.2...v0.2.0) (2024-07-28)
 
 
