@@ -1475,8 +1475,8 @@ dependencies = [
 
 [[package]]
 name = "gateway"
-version = "0.7.0"
-source = "git+https://github.com/majksa-dev/rust-gateway?tag=0.7.0#6aa5f6520693a0fa7f854f37b6c3231f058fa1e8"
+version = "0.8.1"
+source = "git+https://github.com/majksa-dev/rust-gateway?tag=0.8.1#bf78134711484418c92b5b4f37b72dabdf5555a0"
 dependencies = [
  "anyhow",
  "async-trait",
